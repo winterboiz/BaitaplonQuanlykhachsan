@@ -1,0 +1,25 @@
+label.error-msg-validate {
+    position: absolute;
+    z-index: 3;
+    top: -30px;
+    right: 0;
+    /* opacity: 0.5; */
+    border: 1px solid rgba(255, 2, 2, 0.52);
+    padding: 1px 5px;
+    color: #ffffff;
+    background: rgba(255, 2, 2, 0.52);
+}
+label.error-msg-validate:after {
+    content: " ";
+    border: 8px solid;
+    position: absolute;
+    bottom: -17px;
+    left: 9px;
+    color: rgba(255, 2, 2, 0.52);
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    /* border-right: transparent; */
+    /* border-left: transparent; */
+    /* border-top: red; */
+}
